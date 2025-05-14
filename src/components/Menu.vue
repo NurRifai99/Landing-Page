@@ -1,15 +1,14 @@
-<script setup>
-// import { defineProps } from 'vue'
+<template>
+    <li class="my-2">
+        <a class="px-3 py-2 text-black" :href="url" >{{ teks }}</a>
+    </li>
+</template>
 
-const {props} = defineProps({
-  menu: String,
+<script setup>
+
+const props = defineProps({
+  teks: String,
   url: String,
 })
 
 </script>
-
-<template>
-    <li class="px-3 py-2 bg-red-700">
-        <a class="text-white" :href="url" >{{ menu }}</a>
-    </li>
-</template>

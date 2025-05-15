@@ -55,19 +55,19 @@
       title: 'Frontend Development',
       description: 'Frontend development focuses on building interactive and visually appealing user interfaces. Using modern frameworks and styling tools, I ensure seamless user experience.',
       icon: IcComputer,
-      image:'/images/front.jpeg'
+      image:'/image/front.jpeg'
     },
     {
       title: 'Backend Development',
       description: 'Backend development involves handling server-side logic, databases, and APIs. I specialize in building scalable and secure backend systems.s',
       icon: BsDatabaseCheck,
-      image: '/images/back.jpeg'
+      image: '/image/back.jpeg'
     },
     {
       title: 'IOT Development',
       description: 'IoT Development connects hardware with software to create smart systems. I work with microcontrollers and IoT platforms for automation and real-time data processing.',
       icon: CaIotConnect,
-      image: '/images/iot.jpeg'
+      image: '/image/iot.jpeg'
     },
     {
       title: 'Linux Management',

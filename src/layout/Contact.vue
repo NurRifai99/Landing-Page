@@ -2,7 +2,7 @@
     <div id="contact" class="w-full min-h-[70vh] flex justify-center items-center bg-gray-100  px-4">
       <div class="w-full max-w-6xl bg-white  shadow-lg rounded-xl p-8 flex flex-col items-center gap-8 text-center">
         <motion.div
-          class="text-4xl md:text-5xl font-extrabold text-gray-800 text-black"
+          class="text-4xl md:text-5xl font-extrabold text-black"
           :initial="{ opacity: 0, translateY: 50 }"
           :whileInView="{ opacity: 1, translateY: 0 }"
           :transition="{ duration: 0.8, ease: 'easeInOut' }"

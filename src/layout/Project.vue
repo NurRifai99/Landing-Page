@@ -49,11 +49,11 @@
   const tab = ref('My Project')
   
   // Sample data
-import foodtopiia from '../../assets/project/foodtopiia.png'
-import streamlit from '../../assets/project/streamlit.jpeg'
-import serti1 from '../../assets/project/serti1.jpg'
-import serti2 from '../../assets/project/serti2.png'
-import serti3 from '../../assets/project/serti3.png'
+import foodtopiia from '../assets/project/foodtopiia.png'
+import streamlit from '../assets/project/streamlit.jpeg'
+import serti1 from '../assets/project/serti1.jpg'
+import serti2 from '../assets/project/serti2.png'
+import serti3 from '../assets/project/serti3.png'
 
 const items = [
   {

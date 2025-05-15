@@ -51,32 +51,31 @@
   const selectedIndex = ref(0)
   
   const categories = [
-  {
-    title: 'Frontend Development',
-    description: '...',
-    icon: IcComputer,
-    image: new URL('../assets/image/front.jpeg', import.meta.url).href,
-  },
-  {
-    title: 'Backend Development',
-    description: '...',
-    icon: BsDatabaseCheck,
-    image: new URL('../assets/image/back.jpeg', import.meta.url).href,
-  },
-  {
-    title: 'IOT Development',
-    description: '...',
-    icon: CaIotConnect,
-    image: new URL('../assets/image/iot.jpeg', import.meta.url).href,
-  },
-  {
-    title: 'Linux Management',
-    description: '...',
-    icon: CoBrandLinux,
-    image: new URL('../assets/image/linux.jpeg', import.meta.url).href,
-  },
-]
-
+    {
+      title: 'Frontend Development',
+      description: 'Frontend development focuses on building interactive and visually appealing user interfaces. Using modern frameworks and styling tools, I ensure seamless user experience.',
+      icon: IcComputer,
+      image:'../assets/image/front.jpeg'
+    },
+    {
+      title: 'Backend Development',
+      description: 'Backend development involves handling server-side logic, databases, and APIs. I specialize in building scalable and secure backend systems.s',
+      icon: BsDatabaseCheck,
+      image: '../assets/image/back.jpeg'
+    },
+    {
+      title: 'IOT Development',
+      description: 'IoT Development connects hardware with software to create smart systems. I work with microcontrollers and IoT platforms for automation and real-time data processing.',
+      icon: CaIotConnect,
+      image: '../assets/image/iot.jpeg'
+    },
+    {
+      title: 'Linux Management',
+      description: 'Managing Linux System for Servers and Development Environments. I ensure system performance, security, and reliability.',
+      icon: CoBrandLinux,
+      image: '../assets/image/linux.jpeg'
+    },
+  ]
   </script>
   
   

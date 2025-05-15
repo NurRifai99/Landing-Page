@@ -1,6 +1,8 @@
 <template>
-  <Hero/>
-  <Skills/>
+  <main>
+    <Hero/>
+    <Skills/>
+  </main>
   <Footer/>
 </template> 
 

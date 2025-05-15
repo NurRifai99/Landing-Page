@@ -8,7 +8,7 @@
 
             <div class="flex flex-col gap-5 h-full justify-center items-center ">  
               <!-- Image Profil -->
-               <motion.div :initial="{scale:0.5,opacity:0}" :animate="{scale:1,opacity:1}" :transition="{duration:0.4,scale:{type:'spring',visualDuration: 0.4, bounce: 0.5}}">
+               <motion.div :initial="{scale:0.5,opacity:0}" :animate="{scale:1,opacity:1}" :transition="{duration:0.3,scale:{type:'spring',visualDuration: 0.4, bounce: 0.5}}">
                   <div class="w-48 h-48 rounded-full ring-[15px] ring-white">
                     <img src="/src/assets/image/Untitled.jpeg" class="w-full h-full object-cover rounded-full" alt="profile image" >
                   </div>

@@ -46,7 +46,7 @@
   import { ref } from 'vue'
   import { motion } from 'motion-v'
   
-  import { IcComputer,BsDatabaseCheck,CaIotConnect,CoBrandLinux } from '..kalimahapps/vue-icons';
+  import { IcComputer,BsDatabaseCheck,CaIotConnect,CoBrandLinux } from '@kalimahapps/vue-icons';
 
   const selectedIndex = ref(0)
   

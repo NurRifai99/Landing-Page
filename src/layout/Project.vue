@@ -49,38 +49,45 @@
   const tab = ref('My Project')
   
   // Sample data
-  const items = [
+import foodtopiia from '../../assets/project/foodtopiia.png'
+import streamlit from '../../assets/project/streamlit.jpeg'
+import serti1 from '../../assets/project/serti1.jpg'
+import serti2 from '../../assets/project/serti2.png'
+import serti3 from '../../assets/project/serti3.png'
+
+const items = [
   {
     type: 'My Project',
     title: 'FoodTopia - Food Receipe Web',
-    image: new URL('../..assets/project/foodtopiia.png', import.meta.url).href,
+    image: foodtopiia,
     date: 'Feb, 2023',
   },
   {
     type: 'My Project',
     title: 'Streamlit - Mikrotik Network Configuration',
-    image: new URL('../..assets/project/streamlit.jpeg', import.meta.url).href,
+    image: streamlit,
     date: 'Mar, 2025',
   },
   {
     type: 'Certificate',
     title: 'MTCNA - MikroTik Certified Network Associate',
-    image: new URL('../..assets/project/serti1.jpg', import.meta.url).href,
+    image: serti1,
     date: 'May, 2024',
   },
   {
     type: 'Certificate',
     title: 'Belajar Dasar Manajemen Projek - Dicoding',
-    image: new URL('../..assets/project/serti2.png', import.meta.url).href,
+    image: serti2,
     date: 'Apr, 2024',
   },
   {
     type: 'Certificate',
     title: 'Memulai Pemograman Dengan C - Dicoding',
-    image: new URL('../..assets/project/serti3.png', import.meta.url).href,
+    image: serti3,
     date: 'May, 2024',
   },
 ]
+
 
   
   // Computed filter

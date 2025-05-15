@@ -53,9 +53,9 @@
                 :transition="{ duration: 0.3 }"
               >
                 <h2 class="text-6xl"><span class="font-bold">Hello</span> There</h2><br>
-                <p>Saya adalah seorang siswa yang memiliki minat besar di bidang teknologi, khususnya dalam pengembangan web dan perangkat lunak. Rasa ingin tahu mendorong saya untuk terus belajar dan mengeksplorasi bagaimana teknologi dapat digunakan untuk memecahkan masalah nyata.</p>
+                <p>I am a student with a keen interest in technology, particularly in web and software development. My curiosity drives me to continue learning and exploring how technology can be used to solve real-world problems.</p>
                 <br>
-                <p>Saat ini, saya sedang memperdalam keterampilan di berbagai teknologi modern seperti JavaScript dan framework seperti Vue dan Laravel. Tujuan saya adalah membangun fondasi yang kuat untuk berkontribusi dalam dunia digital yang terus berkembang.</p>
+                <p>Currently, I am deepening my skills in various modern technologies such as JavaScript and frameworks such as Vue and Laravel. My goal is to build a strong foundation to contribute to the ever-growing digital world.</p>
               </motion.div>
 
               <div class=" w-full flex flex-col lg:flex-row gap-2 justify-around items-center text-black text-2xl ">

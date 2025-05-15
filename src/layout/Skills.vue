@@ -50,30 +50,36 @@
 
   const selectedIndex = ref(2)
   
+
+  import front from '../assets/image/front.jpeg'
+  import back from '../assets/image/back.jpeg'
+  import iot from '../assets/image/iot.jpeg'
+  import linux from '../assets/image/linux.jpeg'
+
   const categories = [
     {
       title: 'Frontend Development',
       description: 'Frontend development focuses on building interactive and visually appealing user interfaces. Using modern frameworks and styling tools, I ensure seamless user experience.',
       icon: IcComputer,
-      image:'src/assets/image/front.jpeg'
+      image:front
     },
     {
       title: 'Backend Development',
       description: 'Backend development involves handling server-side logic, databases, and APIs. I specialize in building scalable and secure backend systems.s',
       icon: BsDatabaseCheck,
-      image: 'src/assets/image/back.jpeg'
+      image: back
     },
     {
       title: 'IOT Development',
       description: 'IoT Development connects hardware with software to create smart systems. I work with microcontrollers and IoT platforms for automation and real-time data processing.',
       icon: CaIotConnect,
-      image: 'src/assets/image/iot.jpeg'
+      image: iot
     },
     {
       title: 'Linux Management',
       description: 'Managing Linux System for Servers and Development Environments. I ensure system performance, security, and reliability.',
       icon: CoBrandLinux,
-      image: 'src/assets/image/linux.jpeg'
+      image: linux
     },
   ]
   </script>

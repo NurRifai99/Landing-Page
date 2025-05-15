@@ -53,31 +53,31 @@
     {
       type: 'My Project',
       title: 'FoodTopia - Food Receipe Web',
-      image: 'src/assets/project/foodtopiia.png',
+      image: '@/assets/project/foodtopiia.png',
       date: 'Feb, 2023',
     },
     {
       type: 'My Project',
       title: 'Streamlit - Mikrotik Network Configuration',
-      image: 'src/assets/project/streamlit.jpeg',
+      image: '@/assets/project/streamlit.jpeg',
       date: 'Mar, 2025',
     },
     {
       type: 'Certificate',
       title: 'MTCNA - MikroTik Certified Network Associate',
-      image: 'src/assets/project/serti1.jpg',
+      image: '@/assets/project/serti1.jpg',
       date: 'May, 2024',
     },
     {
       type: 'Certificate',
       title: 'Belajar Dasar Manajemen Projek - Dicoding',
-      image: 'src/assets/project/serti2.png',
+      image: '@/assets/project/serti2.png',
       date: 'Apr, 2024',
     },
     {
       type: 'Certificate',
       title: 'Memulai Pemograman Dengan C - Dicoding',
-      image: 'src/assets/project/serti3.png',
+      image: '@/assets/project/serti3.png',
       date: 'May, 2024',
     },
   ]

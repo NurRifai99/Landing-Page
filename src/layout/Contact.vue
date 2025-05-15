@@ -17,14 +17,14 @@
             :href="item.link"
             target="_blank"
             rel="noopener noreferrer"
-            class="flex flex-col items-center gap-2 p-4 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-300 shadow-md"
+            class="flex flex-col items-center gap-2 p-4 rounded-lg bg-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-300 shadow-md"
             :initial="{ opacity: 0, scale: 0.9 }"
             :whileInView="{ opacity: 1, scale: 1 }"
             :transition="{ duration: 0.5, delay: index * 0.1 }"
           >
-            <component :is="item.icon" class="text-4xl text-blue-600 dark:text-blue-400" />
-            <span class="font-medium text-lg text-gray-800 dark:text-white">{{ item.label }}</span>
-            <span class="text-sm text-gray-500 dark:text-gray-400">{{ item.account }}</span>
+            <component :is="item.icon" class="text-4xl text-black " />
+            <span class="font-medium text-lg text-black ">{{ item.label }}</span>
+            <span class="text-sm text-black ">{{ item.account }}</span>
           </motion.a>
         </div>
       </div>

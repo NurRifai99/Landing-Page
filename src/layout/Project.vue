@@ -5,13 +5,13 @@
       <div class="flex gap-8 justify-center mb-8 text-xl font-semibold">
         <button
           :class="tab === 'My Project' ? activeClass : inactiveClass"
-          @click="tab = 'My Project'"
+          ..click="tab = 'My Project'"
         >
             My Project
         </button>
         <button
           :class="tab === 'Certificate' ? activeClass : inactiveClass"
-          @click="tab = 'Certificate'"
+          ..click="tab = 'Certificate'"
         >
             Certificate
         </button>
@@ -50,37 +50,38 @@
   
   // Sample data
   const items = [
-    {
-      type: 'My Project',
-      title: 'FoodTopia - Food Receipe Web',
-      image: '@/assets/project/foodtopiia.png',
-      date: 'Feb, 2023',
-    },
-    {
-      type: 'My Project',
-      title: 'Streamlit - Mikrotik Network Configuration',
-      image: '@/assets/project/streamlit.jpeg',
-      date: 'Mar, 2025',
-    },
-    {
-      type: 'Certificate',
-      title: 'MTCNA - MikroTik Certified Network Associate',
-      image: '@/assets/project/serti1.jpg',
-      date: 'May, 2024',
-    },
-    {
-      type: 'Certificate',
-      title: 'Belajar Dasar Manajemen Projek - Dicoding',
-      image: '@/assets/project/serti2.png',
-      date: 'Apr, 2024',
-    },
-    {
-      type: 'Certificate',
-      title: 'Memulai Pemograman Dengan C - Dicoding',
-      image: '@/assets/project/serti3.png',
-      date: 'May, 2024',
-    },
-  ]
+  {
+    type: 'My Project',
+    title: 'FoodTopia - Food Receipe Web',
+    image: new URL('../assets/project/foodtopiia.png', import.meta.url).href,
+    date: 'Feb, 2023',
+  },
+  {
+    type: 'My Project',
+    title: 'Streamlit - Mikrotik Network Configuration',
+    image: new URL('../assets/project/streamlit.jpeg', import.meta.url).href,
+    date: 'Mar, 2025',
+  },
+  {
+    type: 'Certificate',
+    title: 'MTCNA - MikroTik Certified Network Associate',
+    image: new URL('../assets/project/serti1.jpg', import.meta.url).href,
+    date: 'May, 2024',
+  },
+  {
+    type: 'Certificate',
+    title: 'Belajar Dasar Manajemen Projek - Dicoding',
+    image: new URL('../assets/project/serti2.png', import.meta.url).href,
+    date: 'Apr, 2024',
+  },
+  {
+    type: 'Certificate',
+    title: 'Memulai Pemograman Dengan C - Dicoding',
+    image: new URL('../assets/project/serti3.png', import.meta.url).href,
+    date: 'May, 2024',
+  },
+]
+
   
   // Computed filter
   const filteredItems = computed(() =>

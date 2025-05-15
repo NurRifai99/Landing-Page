@@ -59,7 +59,7 @@
   const categories = [
     {
       title: 'Frontend Development',
-      description: 'Frontend development focuses on building interactive and visually appealing user interfaces. Using modern frameworks and styling tools, I ensure seamless user experience.',
+      description:  'Frontend development focuses on building interactive and visually appealing user interfaces. Using modern frameworks and styling tools, I ensure seamless user experience.',
       icon: IcComputer,
       image:front
     },

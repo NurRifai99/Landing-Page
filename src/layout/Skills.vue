@@ -21,7 +21,7 @@
         <button
           v-for="(category, index) in categories"
           :key="index"
-          ..click="selectedIndex = index"
+          @click="selectedIndex = index"
           class="flex items-center gap-4 p-4 rounded-xl transition-all shadow-sm hover:shadow-md"
           :class="{
             'bg-white border border-gray-500 shadow-md': selectedIndex === index,
@@ -48,32 +48,32 @@
   
   import { IcComputer,BsDatabaseCheck,CaIotConnect,CoBrandLinux } from '@kalimahapps/vue-icons';
 
-  const selectedIndex = ref(0)
+  const selectedIndex = ref(2)
   
   const categories = [
     {
       title: 'Frontend Development',
       description: 'Frontend development focuses on building interactive and visually appealing user interfaces. Using modern frameworks and styling tools, I ensure seamless user experience.',
       icon: IcComputer,
-      image:'/image/front.jpeg'
+      image:'src/assets/image/front.jpeg'
     },
     {
       title: 'Backend Development',
       description: 'Backend development involves handling server-side logic, databases, and APIs. I specialize in building scalable and secure backend systems.s',
       icon: BsDatabaseCheck,
-      image: '/image/back.jpeg'
+      image: 'src/assets/image/back.jpeg'
     },
     {
       title: 'IOT Development',
       description: 'IoT Development connects hardware with software to create smart systems. I work with microcontrollers and IoT platforms for automation and real-time data processing.',
       icon: CaIotConnect,
-      image: '/image/iot.jpeg'
+      image: 'src/assets/image/iot.jpeg'
     },
     {
       title: 'Linux Management',
       description: 'Managing Linux System for Servers and Development Environments. I ensure system performance, security, and reliability.',
       icon: CoBrandLinux,
-      image: '/image/linux.jpeg'
+      image: 'src/assets/image/linux.jpeg'
     },
   ]
   </script>

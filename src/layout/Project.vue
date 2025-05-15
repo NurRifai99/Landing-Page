@@ -5,13 +5,13 @@
       <div class="flex gap-8 justify-center mb-8 text-xl font-semibold">
         <button
           :class="tab === 'My Project' ? activeClass : inactiveClass"
-          ..click="tab = 'My Project'"
+          @click="tab = 'My Project'"
         >
             My Project
         </button>
         <button
           :class="tab === 'Certificate' ? activeClass : inactiveClass"
-          ..click="tab = 'Certificate'"
+          @click="tab = 'Certificate'"
         >
             Certificate
         </button>
@@ -48,41 +48,39 @@
   // Tab control
   const tab = ref('My Project')
   
-
-const items = [
-  {
-    type: 'My Project',
-    title: 'FoodTopia - Food Receipe Web',
-    image: '/image/foodtopia.png',
-    date: 'Feb, 2023',
-  },
-  {
-    type: 'My Project',
-    title: 'Streamlit - Mikrotik Network Configuration',
-    image: '/image/streamlit.png',
-    date: 'Mar, 2025',
-  },
-  {
-    type: 'Certificate',
-    title: 'MTCNA - MikroTik Certified Network Associate',
-    image: '/image/serti1.png',
-    date: 'May, 2024',
-  },
-  {
-    type: 'Certificate',
-    title: 'Belajar Dasar Manajemen Projek - Dicoding',
-    image: '/image/serti2',
-    date: 'Apr, 2024',
-  },
-  {
-    type: 'Certificate',
-    title: 'Memulai Pemograman Dengan C - Dicoding',
-    image: '/image/serti3',
-    date: 'May, 2024',
-  },
-]
-
-
+  // Sample data
+  const items = [
+    {
+      type: 'My Project',
+      title: 'FoodTopia - Food Receipe Web',
+      image: 'src/assets/project/foodtopiia.png',
+      date: 'Feb, 2023',
+    },
+    {
+      type: 'My Project',
+      title: 'Streamlit - Mikrotik Network Configuration',
+      image: 'src/assets/project/streamlit.jpeg',
+      date: 'Mar, 2025',
+    },
+    {
+      type: 'Certificate',
+      title: 'MTCNA - MikroTik Certified Network Associate',
+      image: 'src/assets/project/serti1.jpg',
+      date: 'May, 2024',
+    },
+    {
+      type: 'Certificate',
+      title: 'Belajar Dasar Manajemen Projek - Dicoding',
+      image: 'src/assets/project/serti2.png',
+      date: 'Apr, 2024',
+    },
+    {
+      type: 'Certificate',
+      title: 'Memulai Pemograman Dengan C - Dicoding',
+      image: 'src/assets/project/serti3.png',
+      date: 'May, 2024',
+    },
+  ]
   
   // Computed filter
   const filteredItems = computed(() =>

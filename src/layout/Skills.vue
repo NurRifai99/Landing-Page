@@ -21,7 +21,7 @@
         <button
           v-for="(category, index) in categories"
           :key="index"
-          @click="selectedIndex = index"
+          ..click="selectedIndex = index"
           class="flex items-center gap-4 p-4 rounded-xl transition-all shadow-sm hover:shadow-md"
           :class="{
             'bg-white border border-gray-500 shadow-md': selectedIndex === index,
@@ -46,7 +46,7 @@
   import { ref } from 'vue'
   import { motion } from 'motion-v'
   
-  import { IcComputer,BsDatabaseCheck,CaIotConnect,CoBrandLinux } from '@kalimahapps/vue-icons';
+  import { IcComputer,BsDatabaseCheck,CaIotConnect,CoBrandLinux } from '..kalimahapps/vue-icons';
 
   const selectedIndex = ref(0)
   
@@ -55,25 +55,25 @@
     title: 'Frontend Development',
     description: '...',
     icon: IcComputer,
-    image: new URL('@/assets/image/front.jpeg', import.meta.url).href,
+    image: new URL('../assets/image/front.jpeg', import.meta.url).href,
   },
   {
     title: 'Backend Development',
     description: '...',
     icon: BsDatabaseCheck,
-    image: new URL('@/assets/image/back.jpeg', import.meta.url).href,
+    image: new URL('../assets/image/back.jpeg', import.meta.url).href,
   },
   {
     title: 'IOT Development',
     description: '...',
     icon: CaIotConnect,
-    image: new URL('@/assets/image/iot.jpeg', import.meta.url).href,
+    image: new URL('../assets/image/iot.jpeg', import.meta.url).href,
   },
   {
     title: 'Linux Management',
     description: '...',
     icon: CoBrandLinux,
-    image: new URL('@/assets/image/linux.jpeg', import.meta.url).href,
+    image: new URL('../assets/image/linux.jpeg', import.meta.url).href,
   },
 ]
 

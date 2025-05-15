@@ -48,42 +48,36 @@
   // Tab control
   const tab = ref('My Project')
   
-  // Sample data
-import foodtopiia from '../assets/project/foodtopiia.png'
-import streamlit from '../assets/project/streamlit.jpeg'
-import serti1 from '../assets/project/serti1.jpg'
-import serti2 from '../assets/project/serti2.png'
-import serti3 from '../assets/project/serti3.png'
 
 const items = [
   {
     type: 'My Project',
     title: 'FoodTopia - Food Receipe Web',
-    image: foodtopiia,
+    image: '/image/foodtopia.png',
     date: 'Feb, 2023',
   },
   {
     type: 'My Project',
     title: 'Streamlit - Mikrotik Network Configuration',
-    image: streamlit,
+    image: '/image/streamlit.png',
     date: 'Mar, 2025',
   },
   {
     type: 'Certificate',
     title: 'MTCNA - MikroTik Certified Network Associate',
-    image: serti1,
+    image: '/image/serti1.png',
     date: 'May, 2024',
   },
   {
     type: 'Certificate',
     title: 'Belajar Dasar Manajemen Projek - Dicoding',
-    image: serti2,
+    image: '/image/serti2',
     date: 'Apr, 2024',
   },
   {
     type: 'Certificate',
     title: 'Memulai Pemograman Dengan C - Dicoding',
-    image: serti3,
+    image: '/image/serti3',
     date: 'May, 2024',
   },
 ]
